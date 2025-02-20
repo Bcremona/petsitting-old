@@ -1,0 +1,94 @@
+body {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.publicar-servicio-container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.form-container {
+    border: 2px solid #18A0FB;
+    padding: 3rem;
+    margin: 2rem auto;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.form-container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input,
+.form-container select,
+.form-container button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+}
+
+.form-container input::placeholder {
+    color: #000000;
+}
+
+.form-container button {
+    background-color: #18A0FB;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.info-item {
+    text-align: center;
+    max-width: 200px;
+}
+
+.info-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.info-item h3 {
+    font-size: 1rem;
+}
+
+.info-item p {
+    font-size: 0.8rem;
+}
+
+.info-item button {
+    background-color: #18A0FB;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.cta-section {
+    margin-top: 2rem;
+}
+
+.cta-section button {
+    background-color: #18A0FB;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
