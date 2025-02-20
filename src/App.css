@@ -1,0 +1,267 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.App {
+  text-align: center;
+  background-color: white; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1; 
+  background-color: white;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.App-logo {
+  height: 40px;
+}
+
+.App-nav {
+  display: flex;
+  gap: 5rem;
+  margin: 0 auto;
+}
+
+.App-nav a {
+  text-decoration: none;
+  color: #010508;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.App-nav a:hover {
+  color: #18A0FB;
+  transform: scale(1.1);
+}
+
+.App-auth-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-left: auto;
+}
+
+.login-button, .signup-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.circle-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.signup-button {
+  background-color: #18A0FB;
+  color: white;
+  margin-right: 1em;
+}
+
+.signup-button:hover{
+  background-color: #9fd7fc;
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.login-button {
+  background-color: #141414;
+  color: white;
+}
+
+.login-button:hover{
+  background-color: #d8dee2;
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.welcome-section {
+  position: relative;
+  padding: 10rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40vh;
+  z-index: 1; 
+}
+
+.welcome-section .welcome-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; 
+}
+
+.benefits-section {
+  padding: 2rem;
+}
+
+.benefits-section h2 {
+  font-size: 2rem;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.benefit h3,
+.benefit-detail .text h3,
+.about-section h2 {
+  color: #18A0FB;
+}
+
+.benefit {
+  background-color: #f9f9f900;
+  padding: 1rem;
+  border-radius: 8px;
+  
+}
+
+.benefit-detail {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.benefit-detail img {
+  width: 50%;
+  height: auto;
+}
+
+.benefit-detail .text {
+  width: 50%;
+  text-align: center;
+}
+
+.benefit-detail .text-right {
+  margin-left: auto;
+}
+
+.benefit-detail .text-left {
+  margin-right: auto;
+}
+
+.benefit-detail button {
+  background-color: #18A0FB;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.benefit-detail1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #007bff8c;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+.benefit-detail1 img {
+  width: 50%;
+  height: auto;
+}
+
+.benefit-detail1 .text {
+  width: 50%;
+  text-align: center;
+  color: white; 
+}
+
+.benefit-detail1 .text-right {
+  margin-left: auto;
+}
+
+.benefit-detail1 .text-left {
+  margin-right: auto;
+}
+
+.benefit-detail1 button {
+  background-color: #18A0FB;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+
+.about-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.about-buttons button {
+  background-color: #18A0FB;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.App-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 1rem;
+  color: black;
+}
+
+.footer-logo {
+  height: 30px;
+}
+
+.circle-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

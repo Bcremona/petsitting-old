@@ -1,0 +1,277 @@
+.perfil {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  
+  .left-section {
+    width: 30%;
+  }
+  
+  .right-section {
+    width: 65%;
+  }
+  
+  .user-info {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .user-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .user-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .user-info p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .user-data {
+    margin-bottom: 2rem;
+  }
+  
+  .user-data h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .user-data form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-data input[type="text"],
+  .user-data input[type="email"],
+  .user-data input[type="password"],
+  .user-data select {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #495057; /* Color del texto */
+  }
+  
+  .user-data input[type="text"]::placeholder,
+  .user-data input[type="email"]::placeholder,
+  .user-data input[type="password"]::placeholder,
+  .user-data select::placeholder {
+    color: #6c757d; /* Color del placeholder */
+  }
+  
+  .user-data input[type="text"]:hover,
+  .user-data input[type="text"]:focus,
+  .user-data input[type="email"]:hover,
+  .user-data input[type="email"]:focus,
+  .user-data input[type="password"]:hover,
+  .user-data input[type="password"]:focus,
+  .user-data select:hover,
+  .user-data select:focus {
+    border-color: #007bff; /* Cambia el borde al color principal de tu diseño al pasar el mouse o estar en foco */
+  }
+  
+  .user-data input[type="text"],
+  .user-data input[type="email"],
+  .user-data input[type="password"],
+  .user-data select {
+    color: #000; /* Color del texto ingresado por el usuario */
+  }
+  
+  .user-data select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000000; /* Color del texto */
+  }
+  
+  .user-data select::placeholder {
+    color: #000000; /* Color del placeholder */
+  }
+  
+  .user-data select:hover,
+  .user-data select:focus {
+    border-color: #007bff; /* Cambia el borde al color principal de tu diseño al pasar el mouse o estar en foco */
+  }
+  
+  .user-data select option {
+    color: #000; /* Color del texto de las opciones */
+  }
+  
+  .placeholder-dark {
+    color: #000000; /* Color del placeholder en el select */
+  }
+  
+  .info-section {
+    margin-top: 2rem;
+  }
+  
+  .info-item {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .info-item img {
+    width: 100%;
+    height: 30; /* Aquí deberías definir la altura correctamente, como "30px" */
+    border-radius: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .info-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .info-item p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .info-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .right-section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .right-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .service-card {
+    border: 2px solid #18A0FB;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .service-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.5rem;
+    color: #000000; /* Asegúrate de ajustar el color según tu diseño */
+    margin: 1rem;
+  }
+  
+  .service-details {
+    display: flex;
+    align-items: center; /* Asegura que los elementos se centren verticalmente */
+    justify-content: space-between; /* Alinea los elementos al inicio y los botones a la derecha */
+    color: #000000; /* Asegúrate de ajustar el color según tu diseño */
+  }
+  
+  .service-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-top: 5rem; /* Ajusta el margen superior según sea necesario */
+}
+  
+  .service-info {
+    flex-grow: 1; /* Hace que este contenedor ocupe todo el espacio disponible */
+    margin-right: 1rem; /* Espacio entre la descripción y los botones */
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service-meta {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-meta-container {
+    padding: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column; /* Asegura que los botones estén uno debajo del otro */
+    justify-content: center; /* Centra verticalmente los botones */
+    align-items: center; /* Centra horizontalmente los botones */
+    height: 100%; /* Asegura que el contenedor ocupe toda la altura del contenedor padre */
+  }
+  
+  .small-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem; /* Aumenta el padding para más espacio alrededor del texto */
+    cursor: pointer;
+    margin-bottom: 0.5rem; /* Espacio entre los botones */
+    font-size: 0.9rem;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .service-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .card-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .card-buttons button {
+    margin-left: 0.5rem;
+  }
+  
+  .edit-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .unpublish-button {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .cta-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 45%;
+  }
