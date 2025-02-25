@@ -4,13 +4,17 @@ import imagenCuidador from '../../assets/images/fotoperro4.jpg';
 import imagenCuidadorNoche from '../../assets/images/fotoperro9.jpg';
 import { Link } from 'react-router-dom';
 
-const PaginaInicio = () => {
+const PaginaInicio = ({userId}) => {
   return (
     <div>
       <section className="welcome-section">
         <img src={imagenPrincipal} alt="Principal" className="welcome-image" />
-        <h1>Descubre cuidadores profesionales y amantes de mascotas listos para mimar a tu peludo amigo.</h1>
+        <h1 className='title-inicio'>Descubre cuidadores profesionales y amantes de mascotas listos para mimar a tu peludo amigo.</h1>
+        {userId ? (
+          <Link to="/servicios" className="signup-button">Ver Servicios</Link>
+        ) : (
         <Link to="/register" className="signup-button">Crear Cuenta</Link>
+        )}
       </section>
 
       <section className="benefits-section">
@@ -58,7 +62,7 @@ const PaginaInicio = () => {
         <p>¡Estás en buenas manos! Nos dedicamos a cuidar de tus mascotas con amor y profesionalismo. Nuestro compromiso es brindarles un entorno seguro y feliz mientras estás fuera. Gracias por confiar en nosotros para el cuidado de tus compañeros peludos.</p>
         <div className="about-buttons">
         <Link to="/register" className="signup-button">Crear Cuenta</Link>
-          <button>Contacto</button>
+          <button className="signup-button">Contacto</button>
         </div>
       </section>
     </div>

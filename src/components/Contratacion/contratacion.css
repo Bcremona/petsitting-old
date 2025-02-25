@@ -92,3 +92,13 @@ body {
     padding: 0.5rem;
     cursor: pointer;
 }
+
+input::placeholder,
+select::placeholder {
+    color: #7e7e7e !important;
+}
+
+.resbutton-link {
+    text-decoration: none;
+    color: #fff;
+}

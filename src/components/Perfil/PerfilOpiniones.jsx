@@ -36,14 +36,7 @@ const PerfilOpiniones = () => {
                 <button type="button">Guardar Cambios</button>
               </form>
             </div>
-            <div className="info-section">
-              <div className="info-item">
-                <img src={imagenTerminosCondiciones} alt="Términos y Condiciones" />
-                <h3>Términos y Condiciones</h3>
-                <p>¡Recuerda leer los términos y condiciones aquí! Es importante que estés al tanto de nuestras políticas para garantizar una experiencia segura y satisfactoria en nuestra plataforma.</p>
-                <button type="button">Ver Más</button>
-              </div>
-            </div>
+            
           </div>
           <div className="right-section">
             <h1>Gestión de Servicios</h1>
@@ -72,7 +65,6 @@ const PerfilOpiniones = () => {
             </div>
     
             <div className="cta-buttons">
-              <Link to="/perfil-opiniones" className="cta-button">Ver Opiniones</Link>
               <Link to="/perfil" className="cta-button">Ver Servicios Publicados</Link>
             </div>
           </div>

@@ -141,7 +141,7 @@ const LoginForm = ({ onLogin }) => {
   return (
     <div className="iniciar-sesion">
       <h1>¡Bienvenido de vuelta!</h1>
-      <p>Rellena este formulario para acceder a todos nuestros servicios. ¡Estamos emocionados de tenerte con nosotros!</p>
+      <p>¡Estamos emocionados de tenerte con nosotros!</p>
       <div className="form-container">
         <h2>Iniciar Sesión</h2>
         <form onSubmit={handleSubmit}>
@@ -181,19 +181,19 @@ const LoginForm = ({ onLogin }) => {
           <img src={imagenTerminosCondiciones} alt="Términos y Condiciones" />
           <h3>Términos y Condiciones</h3>
           <p>¡Recuerda leer los términos y condiciones aquí! Es importante que estés al tanto de nuestras políticas para garantizar una experiencia segura y satisfactoria en nuestra plataforma.</p>
-          <button type="button-ver">Ver Más</button>
+          <Link to="/terminosyservicios" className="resbutton-link">Ver Más</Link>
         </div>
         <div className="info-item">
           <img src={imagenInformacionImportante} alt="Información Importante" />
           <h3>Información Importante</h3>
           <p>¡No olvides que puedes modificar tus publicaciones y servicios en cualquier momento! Mantén tu perfil actualizado y adaptado a tus necesidades y disponibilidad.</p>
-          <button type="button-ver">Ver Más</button>
+          <Link to="/terminosyservicios" className="resbutton-link">Ver Más</Link>
         </div>
       </div>
 
       <div className="cta-section">
         <p>¿No tienes cuenta? Regístrate acá para acceder a todos los servicios.</p>
-        <Link to="/register" className="resbutton">Registrarme</Link>
+        <Link to="/register" className="resbutton-link">Registrarme</Link>
       </div>
     </div>
   );

@@ -65,30 +65,20 @@ const Contratacion = ({ idServicio, userId, userRole, idPrestador }) => { // Agr
         <h2>Contratacion</h2>
         <form onSubmit={handleSubmit}>
           <input type="text" name="telefono" placeholder="Telefono" value={form.telefono} onChange={handleChange} required />
-          <input type="text" name="mail" placeholder="Mail" value={"bautistacremona@gmail.com"} onChange={handleChange}  />
-          <input type="text" name="horarios" placeholder="Horarios" value={"12:30"} onChange={handleChange}  />
+          <input type="text" name="mail" placeholder="Mail" onChange={handleChange}  />
+          <input type="text" name="horarios" placeholder="Horarios" onChange={handleChange}  />
           <input type="text" name="mensaje" placeholder="Mensaje" value={form.mensaje} onChange={handleChange} required />
-          <input type="text" name="metodosDePago" placeholder="Metodo de Pago" value={"tarjeta"} onChange={handleChange}  />
+          <select type="" name="metodosDePago" placeholder="Metodo de Pago" onChange={handleChange} >
+            <option value="tarjeta"> Tarjeta </option>
+            <option value="transferencia"> Transferencia </option>
+            <option value="efectivo"> Efectivo </option>
+          </select>
           <button type="submit">Contratar</button>
         </form>
       </div>
-      <div className="info-section">
-        <div className="info-item">
-          <img src={imagenTerminosCondiciones} alt="Términos y Condiciones" />
-          <h3>Términos y Condiciones</h3>
-          <p>¡Recuerda leer los términos y condiciones aquí! Es importante que estés al tanto de nuestras políticas para garantizar una experiencia segura y satisfactoria en nuestra plataforma.</p>
-          <Link to="/terminosyservicios" className="signup-button">Ver Más</Link>
-        </div>
-        <div className="info-item">
-          <img src={whatsapp} alt="Contactate con tu proovedor!" />
-          <h3>Contactate con tu proovedor!</h3>
-          <p>Podes contactarte con tu proovedor por Whatsapp!</p>
-          <button type="button">Ir a Whastapp</button>
-        </div>
-      </div>
       <div className="cta-section">
         <p>¿No te decidiste? Mira todos los servicios acá.</p>
-        <button type="button">Ver Servicios</button>
+        <button type="button" className='resbutton'><Link to="/servicios" className='resbutton-link'> Ver Servicios </Link></button>
       </div>
     </div>
   );
