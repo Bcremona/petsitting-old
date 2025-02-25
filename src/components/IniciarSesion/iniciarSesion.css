@@ -18,7 +18,7 @@ body {
 }
 
 .form-container {
-    border: 2px solid #18A0FB;
+    border: 2px solid #1694e7;
     padding: 3rem;
     margin: 0 auto;
     width: 300px;
@@ -62,7 +62,7 @@ body {
 .link-button {
     background: none;
     border: none;
-    color: #18A0FB;
+    color: #1694e7;
     cursor: pointer;
     font-size: 0.9rem;
     padding: 0;
@@ -141,7 +141,7 @@ body {
 }
 
 .info-item button {
-    background-color: #18A0FB;
+    background-color: #1694e7;
     color: white;
     border: none;
     padding: 0.5rem;
@@ -154,7 +154,7 @@ body {
 }
 
 .cta-section button {
-    background-color: #18A0FB;
+    background-color: #1694e7;
     color: white;
     border: none;
     padding: 0.5rem;
@@ -178,5 +178,16 @@ body {
 }
 
 .button-ver {
+    border-radius: 8px;
+}
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+  color: #7e7e7e !important;
+}
+
+.resbutton-link {
+    text-decoration: none;
+    background-color: #1694e7;
+    padding: 1em;
     border-radius: 8px;
 }

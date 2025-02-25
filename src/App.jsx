@@ -30,6 +30,12 @@ const App = () => {
     console.log('user ' + userInfo + ' - rol ' + role);
   };
 
+  
+  const handleLogout = () => {
+    setUser(null);
+    setUserRole(null);
+  };
+
   return (
 
       <Router>
@@ -46,14 +52,13 @@ const App = () => {
           <div className="App-auth-buttons">
           {user ? (
           <>
-            <Link to="/inicio" className="login-button">Salir</Link>
+            <Link to="/login" className="login-button" onClick={handleLogout} >Salir</Link>
             <Link to="/perfil" className="signup-button">Perfil</Link>
             <img src={imagenInformacionImportante} alt="Información importante" className="circle-image" />
           </>
         ) : (
           <>
-            <Link to="/login" className="login-button">Ingresar</Link>
-            <Link to="/register" className="signup-button">Registrarse</Link>
+
           </>
         )}
           </div>
@@ -73,8 +78,8 @@ const App = () => {
           <Route path="/restablecer-contra" element={<RestablecerContraseña />} />
           <Route path="/perfil" element={<Perfil prestadorId={user} />} />
           <Route path="/perfil-opiniones" element={<PerfilOpiniones />} />
-          <Route path="/inicio" element={<PaginaInicio />} />
-          <Route path="//terminosyservicios" element={<TerminosYServicios />} />
+          <Route path="/inicio" element={<PaginaInicio userId={user}/>} />
+          <Route path="/terminosyservicios" element={<TerminosYServicios />} />
           <Route path="/perfil-gestionar-servicio" element={<PerfilGestionServicio />} />
         </Routes>
       </Router>
