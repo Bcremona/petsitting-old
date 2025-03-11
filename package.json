@@ -16,10 +16,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "cross-env PORT=3001 react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd src && node server.js",
+    "client": "react-scripts start",
+    "build": "react-scripts build && npm run server"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^9.1.2",
     "cross-env": "^7.0.3"
   }
 }
