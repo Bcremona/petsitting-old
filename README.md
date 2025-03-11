@@ -1,4 +1,7 @@
-🚀 Proyecto: Petsitting App
+🚀 Proyecto: Petsitting App 
+
+(English on line 47!)
+
 Descripción
 Este proyecto es una entrega universitaria, realizado para mostrar el uso de tecnologías como React, Node, JavaScript, APIs y SQL.
 
@@ -38,3 +41,47 @@ Para construir la aplicación para producción y levantar el servidor:
 
 npm run build
 El bundle de React se generará en la carpeta build/.
+
+
+
+### ENGLISH ###
+
+Description
+This project is a university assignment, created to demonstrate the use of technologies such as React, Node, JavaScript, APIs, and SQL.
+
+🏁 Installation
+Follow these steps to set up and run the project locally:
+
+1. Clone the repository
+git clone [repository-URL]
+cd [project-name]
+
+2. Install dependencies
+npm install
+
+3. Configure environment variables
+Create a .env file in the root directory and add the following variables:
+
+# Port for the client (React)
+PORT=3001
+
+# Other variables for database connection, API keys, etc.
+DB_SERVER=[host]
+DB_USER=[user]
+DB_PASSWORD=[password]
+DB_DATABASE=[database-name]
+⚠️ Important: Make sure not to include the .env file in version control. It is already added to .gitignore.
+
+🚀 Usage
+Development
+To start both the server and the client:
+
+npm start
+The server will run at: http://localhost:3000
+The client (React) will be available at: http://localhost:3001
+
+# Build and deployment
+To build the application for production and start the server:
+
+npm run build
+The React build will be generated in the build/ folder.
