@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/petsitting-old/static/css/main.911900c7.css",
+    "main.js": "/petsitting-old/static/js/main.30e315d0.js",
+    "static/js/453.5910248e.chunk.js": "/petsitting-old/static/js/453.5910248e.chunk.js",
+    "static/media/fotoperro9.jpg": "/petsitting-old/static/media/fotoperro9.a56f22801f33b1b0f43f.jpg",
+    "static/media/fotoperro7.jpg": "/petsitting-old/static/media/fotoperro7.552d278a938cbd627db4.jpg",
+    "static/media/fotoperro11.jpg": "/petsitting-old/static/media/fotoperro11.1d88edfb6a46416b7ec8.jpg",
+    "static/media/fotoperro4.jpg": "/petsitting-old/static/media/fotoperro4.cb32743b351b1c56bf3f.jpg",
+    "static/media/fotoperro10.jpg": "/petsitting-old/static/media/fotoperro10.18708eea44b9b31dce5a.jpg",
+    "static/media/Logo.png": "/petsitting-old/static/media/Logo.9924ca452f57f4ff8827.png",
+    "static/media/wsplogo.png": "/petsitting-old/static/media/wsplogo.a71173aa3fd1be78b8d4.png",
+    "index.html": "/petsitting-old/index.html",
+    "main.911900c7.css.map": "/petsitting-old/static/css/main.911900c7.css.map",
+    "main.30e315d0.js.map": "/petsitting-old/static/js/main.30e315d0.js.map",
+    "453.5910248e.chunk.js.map": "/petsitting-old/static/js/453.5910248e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.911900c7.css",
+    "static/js/main.30e315d0.js"
+  ]
+}
