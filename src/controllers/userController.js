@@ -1,5 +1,5 @@
 // /controllers/userController.js
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const { sql, poolPromise } = require('../config/db');
 
 exports.registrarUsuario = async (req, res) => {

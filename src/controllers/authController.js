@@ -1,5 +1,5 @@
 const { sql, poolPromise } = require('../config/db');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 const iniciarSesion = async (req, res) => {
   const { email, contraseña } = req.body;
