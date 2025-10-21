@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api'; // Reemplaza con la URL de tu API
+const API_URL = 'https://petsitting-server.onrender.com/api' // Reemplaza con la URL de tu API
 
 // Función para obtener todos los servicios
 export const obtenerTodosLosServicios = async () => {

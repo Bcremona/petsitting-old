@@ -1,5 +1,5 @@
 // api/despublicarServicio.js
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://petsitting-server.onrender.com/api'
 
 export const despublicarServicio = async (idServicio) => {
   try {

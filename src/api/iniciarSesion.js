@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://petsitting-server.onrender.com/api'
 
 // Función para iniciar sesión y obtener rol e ID del usuario
 export const iniciarSesion = async (credenciales) => {

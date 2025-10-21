@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api'; // Asegúrate de que esta URL sea correcta
+const API_URL = 'https://petsitting-server.onrender.com/api' // Asegúrate de que esta URL sea correcta
 
 // Función para publicar un servicio
 export const publicarServicio = async (servicio, userId) => {
