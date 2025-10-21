@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/petsitting-old/static/css/main.911900c7.css",
-    "main.js": "/petsitting-old/static/js/main.30e315d0.js",
+    "main.js": "/petsitting-old/static/js/main.b711b856.js",
     "static/js/453.5910248e.chunk.js": "/petsitting-old/static/js/453.5910248e.chunk.js",
     "static/media/fotoperro9.jpg": "/petsitting-old/static/media/fotoperro9.a56f22801f33b1b0f43f.jpg",
     "static/media/fotoperro7.jpg": "/petsitting-old/static/media/fotoperro7.552d278a938cbd627db4.jpg",
@@ -12,11 +12,11 @@
     "static/media/wsplogo.png": "/petsitting-old/static/media/wsplogo.a71173aa3fd1be78b8d4.png",
     "index.html": "/petsitting-old/index.html",
     "main.911900c7.css.map": "/petsitting-old/static/css/main.911900c7.css.map",
-    "main.30e315d0.js.map": "/petsitting-old/static/js/main.30e315d0.js.map",
+    "main.b711b856.js.map": "/petsitting-old/static/js/main.b711b856.js.map",
     "453.5910248e.chunk.js.map": "/petsitting-old/static/js/453.5910248e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.911900c7.css",
-    "static/js/main.30e315d0.js"
+    "static/js/main.b711b856.js"
   ]
 }
